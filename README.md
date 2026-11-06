@@ -1,106 +1,234 @@
-# GitHub public roadmap
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUSTOMTECH | Equipos custom-made para I+D e Innovación</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Montserrat -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+    </style>
+</head>
+<body class="bg-white text-black antialiased selection:bg-black selection:text-white">
 
-:sparkle: View the [official GitHub public product roadmap](https://github.com/orgs/github/projects/4247)[^1]
+    <!-- BARRA DE NAVEGACIÓN COMPACTA -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-black/10">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <!-- LOGOTIPO VECTORIAL INTEGRADO -->
+            <a href="#inicio" class="flex items-center gap-2">
+                <svg class="h-8 w-auto" viewBox="0 0 160 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="20" font-family="Montserrat" font-weight="900" font-size="18" fill="black" letter-spacing="-0.5">CUSTOM</text>
+                    <text x="40" y="38" font-family="Montserrat" font-weight="900" font-size="18" fill="black" letter-spacing="-0.5">TECH</text>
+                    <g transform="translate(120, 5)">
+                        <rect width="32" height="32" fill="black"/>
+                        <rect x="0" y="4" width="28" height="2.5" fill="#ccff00"/>
+                        <rect x="0" y="11" width="32" height="2.5" fill="#ccff00"/>
+                        <rect x="0" y="18" width="28" height="2.5" fill="#ccff00"/>
+                        <rect x="0" y="25" width="32" height="2.5" fill="#ccff00"/>
+                    </g>
+                </svg>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-6 font-medium text-xs uppercase tracking-wider text-black/70">
+                <a href="#inicio" class="hover:text-black transition-colors">Inicio</a>
+                <a href="#capacidades" class="hover:text-black transition-colors">Capacidades</a>
+                <a href="#galeria" class="hover:text-black transition-colors">Galería I+D</a>
+                <a href="#contacto" class="hover:text-black transition-colors">Contacto</a>
+            </nav>
 
-Our product roadmap is where you can learn about what features we're working on, what stage they're in, and when we expect to bring them to you. Have any questions or comments about items on the roadmap? Share your feedback via [GitHub public feedback discussions](https://github.com/github/feedback/discussions). 
+            <a href="https://wa.me/56984029443" target="_blank" class="bg-black text-white px-4 py-2 rounded-lg font-bold text-xs tracking-wide uppercase hover:bg-neutral-800 transition-all flex items-center gap-2">
+                <i class="fab fa-whatsapp text-sm text-emerald-400"> +56 9 8402 9443</i>
+            </a>
+        </div>
+    </header>
 
-The roadmap repository is for communicating GitHub’s roadmap. Existing issues are currently read-only, and we are locking conversations, as we get started. Interaction limits are also in place to ensure issues originate from GitHub. We’re planning to iterate on the format of the roadmap itself, and we see potential to engage more in discussions about the future of GitHub products and features. If you have feedback about this roadmap repository itself, such as how the issues are presented, let us know through [general feedback in GitHub public feedback discussions](https://github.com/orgs/community/discussions/new?category=general).
+    <!-- INICIO / HERO BREVE -->
+    <section id="inicio" class="pt-28 pb-12 px-4 max-w-6xl mx-auto text-center">
+        <div class="max-w-2xl mx-auto space-y-4">
+            <span class="text-xs font-bold uppercase tracking-widest bg-black text-white px-3 py-1 rounded-full">I+D e Innovación</span>
+            <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+                Equipos custom-made para investigación y tecnología
+            </h1>
+            <p class="text-sm sm:text-base text-neutral-600">
+                Diseño y fabricación a medida de sistemas, columnas y prototipos de alta precisión para la industria y la ciencia.
+            </p>
+        </div>
+    </section>
 
+    <!-- CAPACIDADES RÁPIDAS -->
+    <section id="capacidades" class="py-12 px-4 max-w-6xl mx-auto border-t border-black/10">
+        <h2 class="text-xl font-bold uppercase tracking-wider text-center mb-8">Nuestras Capacidades</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div class="p-6 border border-black/10 rounded-xl bg-neutral-50">
+                <i class="fas fa-cogs text-2xl mb-3"></i>
+                <h3 class="font-bold text-sm mb-1">Mecánica CNC</h3>
+                <p class="text-xs text-neutral-600">Torneado, fresado y soldadura plástica y metálica de precisión.</p>
+            </div>
+            <div class="p-6 border border-black/10 rounded-xl bg-neutral-50">
+                <i class="fas fa-shield-alt text-2xl mb-3"></i>
+                <h3 class="font-bold text-sm mb-1">Polímeros & Acrílicos</h3>
+                <p class="text-xs text-neutral-600">Policarbonato y acrílicos de alta transparencia técnica.</p>
+            </div>
+            <div class="p-6 border border-black/10 rounded-xl bg-neutral-50">
+                <i class="fas fa-cubes text-2xl mb-3"></i>
+                <h3 class="font-bold text-sm mb-1">Metales & Inoxidables</h3>
+                <p class="text-xs text-neutral-600">Acero AISI 316L, aluminio, bronce y cobre para laboratorio.</p>
+            </div>
+        </div>
+    </section>
 
-## Guide to the roadmap
+    <!-- GALERÍA (FOTOS LOCALES CON MINIATURAS Y ZOOM) -->
+    <section id="galeria" class="py-12 px-4 max-w-6xl mx-auto border-t border-black/10">
+        <h2 class="text-xl font-bold uppercase tracking-wider text-center mb-2">Galería de Proyectos</h2>
+        <p class="text-xs text-neutral-500 text-center mb-8">Toca cualquier miniatura para ampliarla</p>
+        
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <!-- Item 1 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen002.png', 'Planta de Flotación en Columna', 'Estructura modular de acero con columnas de acrílico técnico de alta transparencia y manifold de distribución.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen002.png" alt="Planta de Flotación" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Planta de Flotación</div>
+            </div>
 
-Every item on the roadmap is an issue, with a label that indicates each of the following:
+            <!-- Item 2 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen003.png', 'Molino SAG para Minería', 'Desarrollado para pruebas experimentales de conminución y molienda a escala de laboratorio.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen003.png" alt="Molino SAG" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Molino SAG</div>
+            </div>
 
-- A **release phase** that describes the next expected phase of the roadmap item. See below for a guide to release phases. 
+            <!-- Item 3 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen005.png', 'Cristalizador USACH', 'Reactor especializado con control térmico e instrumentación directa.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen005.png" alt="Cristalizador" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Cristalizador USACH</div>
+            </div>
 
-- A **feature area** that indicates the area of the product to which the item belongs. For a list of current product areas, see below.
+            <!-- Item 4 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen007.png', 'Experimento de Darcy', 'Banco hidráulico para estudio de fluidos en medios porosos.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen007.png" alt="Darcy" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Experimento Darcy</div>
+            </div>
 
-- A **feature** that indicates the feature or product to which the item belongs. For a list of current features, see below. 
+            <!-- Item 5 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen008.png', 'Equipo Experimental U. de Chile', 'Cámara transparente con sensores para análisis electroquímico.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen008.png" alt="U Chile" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Cámara U. de Chile</div>
+            </div>
 
-- One or more **product SKU** labels that indicate which product SKUs we expect the feature to be available in. For a list of current product SKUs, see below.
+            <!-- Item 6 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen014.png', 'Columna AMINPRO', 'Sistema modular de gran altura para pruebas metalúrgicas.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen014.png" alt="Aminpro" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Columna Aminpro</div>
+            </div>
 
-- One or more **deployment models** (cloud, server, and/or ae). Where not stated, features will generally come out Cloud first, and follow on Server and GHAE at or soon after GA.
+            <!-- Item 7 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen006.png', 'Electrocelda Mistop®', 'Equipo para electrometalurgia enfocado en supresión de niebla.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen006.png" alt="Mistop" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Electrocelda Mistop</div>
+            </div>
 
-- Once a feature is delivered, the **shipped** label will be applied to the roadmap issue and the issue will be closed with a comment linking to the relevant [Changelog](https://github.blog/changelog/) post.
+            <!-- Item 8 -->
+            <div class="border border-black/10 rounded-lg overflow-hidden cursor-pointer group bg-neutral-100" onclick="openModal('Imagen010.png', 'Manifold Multilínea', 'Cilindro con múltiples llaves de paso para control de flujos.')">
+                <div class="h-32 overflow-hidden relative bg-neutral-200">
+                    <img src="Imagen010.png" alt="Manifold" class="w-full h-full object-cover group-hover:scale-105 transition-transform" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <div class="p-2 text-center text-xs font-bold truncate">Manifold Acrílico</div>
+            </div>
+        </div>
+    </section>
 
-## Release phases
+    <!-- CONTACTO RÁPIDO -->
+    <section id="contacto" class="py-12 px-4 max-w-xl mx-auto border-t border-black/10">
+        <h2 class="text-xl font-bold uppercase tracking-wider text-center mb-6">Contacto</h2>
+        <form id="contact-form" class="space-y-4">
+            <div>
+                <input type="text" required placeholder="Tu Nombre / Institución" class="w-full bg-neutral-50 border border-black/20 rounded-lg px-4 py-2.5 text-xs focus:outline-none focus:border-black">
+            </div>
+            <div>
+                <input type="email" required placeholder="Correo electrónico" class="w-full bg-neutral-50 border border-black/20 rounded-lg px-4 py-2.5 text-xs focus:outline-none focus:border-black">
+            </div>
+            <div>
+                <textarea rows="3" required placeholder="Detalles de tu requerimiento..." class="w-full bg-neutral-50 border border-black/20 rounded-lg px-4 py-2.5 text-xs focus:outline-none focus:border-black"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-black text-white py-3 rounded-lg font-bold text-xs uppercase tracking-wider hover:bg-neutral-800 transition-all">
+                Enviar Mensaje
+            </button>
+            <p id="form-success" class="hidden text-center text-xs text-emerald-600 font-semibold">¡Enviado con éxito!</p>
+        </form>
+    </section>
 
-Release phases indicate the stages that the product or feature goes through, from early testing to general availability.
+    <!-- FOOTER -->
+    <footer class="bg-black text-white py-6 px-4 text-center text-xs">
+        <p>© 2026 CUSTOMTECH. Equipos I+D.</p>
+    </footer>
 
-- **preview:** *Publicly available in full or limited capacity*\
-Features mostly complete and documented. Timeline and requirements for GA usually published. No SLAs or support provided.
+    <!-- MODAL (ZOOM DE IMAGEN) -->
+    <div id="image-modal" class="fixed inset-0 z-50 bg-black/80 hidden items-center justify-center p-4">
+        <div class="bg-white max-w-lg w-full rounded-xl overflow-hidden relative p-4">
+            <button onclick="closeModal()" class="absolute top-3 right-3 w-8 h-8 bg-neutral-100 rounded-full flex items-center justify-center text-black font-bold z-10">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="h-64 sm:h-80 bg-neutral-50 flex items-center justify-center mb-4 mt-2">
+                <img id="modal-img" src="" alt="Detalle" class="max-h-full max-w-full object-contain">
+            </div>
+            <h3 id="modal-title" class="font-bold text-sm mb-1"></h3>
+            <p id="modal-desc" class="text-xs text-neutral-600"></p>
+        </div>
+    </div>
 
-- **ga:** *Generally available to all customers*\
-Ready for production use with associated SLA and technical support obligations. Approximately 1-2 quarters from Preview.
+    <!-- SCRIPT -->
+    <script>
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('modal-img');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDesc = document.getElementById('modal-desc');
 
-Some of our features may still be in the exploratory stages, and have no timeframe available. These are included in the roadmap only for early feedback. These are marked as follows: 
+        function openModal(imgSrc, title, desc) {
+            modalImg.src = imgSrc;
+            modalTitle.textContent = title;
+            modalDesc.textContent = desc;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
 
-- **in design:**\
-Feature in discovery phase. We have decided to build this feature, but are still figuring out _how_.
+        function closeModal() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
 
-- **exploring:**\
-Feature under consideration. We are considering building this feature, and gathering feedback on it.
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
 
-## Release phases - For GHES
-
-Some features may be marked with a GHES 3.X label, which indicates that the feature will also become available for Github Enterprise Server customers. Below are the release version numbers and expected release quarters (_Note: these dates are subject to change_). 
-
-**GHES release version dates**:
-| **Version Number** | **Release Quarter** | **Release Notes** |
-|-|-|-|
-| 3.12 | Q1 2024 | [Release Notes](https://docs.github.com/en/enterprise-server@3.12/admin/release-notes#3.12.0)|
-| 3.13 | Q2 2024 | [Release Notes](https://docs.github.com/en/enterprise-server@3.13/admin/release-notes#3.13.0)|
-| 3.14 | Q3 2024 | [Release Notes](https://docs.github.com/en/enterprise-server@3.14/admin/release-notes) |
-| 3.15 | Q4 2024 | -- |
-
-## Roadmap stages
-
-The roadmap is arranged on a project board to give a sense for how far out each item is on the horizon. Every product or feature is added to a particular project board column according to the quarter in which it is expected to ship next. Be sure to read the [disclaimer](#disclaimer) below since the roadmap is subject to change, especially further out on the timeline.  You'll also find an **Exploratory** column, which is used in conjunction with the **in design** and **exploring** release phase labels for when no timeframe is yet available.
-
-GitHub Enterprise Server has major releases on a quarterly basis, and minor releases on a monthly basis. Once we know what version we are delivering a feature, we will update the issue to indicate that information.
-
-## Feature Areas
-
-The following is a list of our current product areas:
-
-- **code:** Code experiences (Repositories, Pull Requests, Gists)
-- **planning:** Planning and tracking tools (Issues, Projects)
-- **code-to-cloud:** Code-to-cloud DevOps (Actions, Packages)
-- **collaboration:** Collaboration features (Pages, Wikis, Discussions)
-- **security & compliance:** Code security and compliance features
-- **admin-server:** Administrative features specific to GitHub Enterprise Server
-- **admin-cloud:** Administrative features specific to GitHub Cloud
-- **communities:** Community and social features
-- **ecosystem:** Ecosystem and API features
-- **learning:** Education and learning features
-- **insights:** Continuous learning and insights features
-- **client-apps:** Client applications (Desktop, Mobile)
-- **other:** Other features
-
-## Feature
-
-The following is a list of our current features and products, with distinct labels for filtering:
-
-- **actions:** GitHub Actions
-- **docs:** GitHub Docs
-- **packages:** GitHub Packages
-- **pages:** GitHub Pages
-
-_More labels will be added in the future as needed._
-
-## Product SKUs 
-
-The following is a list of our current product SKUs. 
-
-- **all:** Available to all users, including a free tier. Different SKUs may have different levels of functionality.
-- **github team:** GitHub Team
-- **github enterprise:** GitHub Enterprise (Cloud and Server)
-- **github one:** GitHub One (Cloud and Server)
-- **github ae:** GitHub AE (GHAE)
-- **github advanced security:** GitHub Advanced Security (add-on to GHE)
-- **github insights:** GitHub Insights (add-on to GHE)
-- **github learning lab:** GitHub Learning Lab (add-on to GHE)
-
-## Disclaimer 
-
-Any statement in this repository that is not purely historical is considered a forward-looking statement. Forward-looking statements included in this repository are based on information available to GitHub as of the date they are made, and GitHub assumes no obligation to update any forward-looking statements. The forward-looking product roadmap does not represent a commitment, guarantee, obligation or promise to deliver any product or feature, or to deliver any product and feature by any particular date, and is intended to outline the general development plans. Customers should not rely on this roadmap to make any purchasing decision.
+        const contactForm = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            formSuccess.classList.remove('hidden');
+            contactForm.reset();
+            setTimeout(() => formSuccess.classList.add('hidden'), 4000);
+        });
+    </script>
+</body>
+</html>
